@@ -23,7 +23,7 @@ public class Lab2 {
 						else {
 							System.out.println(" Please enter a number between 1 -100 ");
 							isNum = false;
-							scan.nextInt();
+							scan.next();
 						}
 					} while (!(isNum));
 					
